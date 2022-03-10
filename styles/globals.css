@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --grey: #e46363;
+}
 html,
 body {
   padding: 0;

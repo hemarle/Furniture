@@ -1,0 +1,12 @@
+.productCard__Image {
+  position: relative;
+}
+.productCard__Image::before {
+  position: absolute;
+  content: "";
+  background-color: #fafafa;
+  border-radius: 21px;
+  height: 80%;
+  width: 100%;
+  margin-top: 20%;
+}
