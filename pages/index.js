@@ -1,8 +1,10 @@
 import About from "../components/About";
 import Hero from "../components/Hero";
+import Product from "../components/Product";
 
 import SearchIcon from "../static/images/Search-icon.png";
 
+import { options, productData } from "../static/js/product";
 export default function Home() {
   const aboutData = [
     {
@@ -35,6 +37,12 @@ minimalistic & modern"
       />
 
       <About title="Why Choosing Us" data={aboutData} />
+
+      <Product
+        title="Best Selling Product"
+        options={options}
+        data={productData}
+      />
     </div>
   );
 }
