@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import "../styles/Search.css";
+import "../styles/About.css";
 import "../styles/Hero.css";
 
 function MyApp({ Component, pageProps }) {
