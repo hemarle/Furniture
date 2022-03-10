@@ -1,6 +1,7 @@
 import About from "../components/About";
 import Experience from "../components/Experience";
 import Hero from "../components/Hero";
+import Material from "../components/Material";
 import Product from "../components/Product";
 
 import SearchIcon from "../static/images/Search-icon.png";
@@ -46,6 +47,7 @@ minimalistic & modern"
       />
 
       <Experience />
+      <Material />
     </div>
   );
 }
