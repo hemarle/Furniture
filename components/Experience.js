@@ -5,12 +5,14 @@ import Descriptor from "./Descriptor";
 
 function Experience() {
   return (
-    <div className="experience">
-      <div className="experience__Left">
-        <Image src={furnitureImage} />
+    <div className="experience mt-20 lg:flex md:items-center">
+      <div className="experience__Left md:flex-[0.5] ">
+        <div className="mx-auto block md:w-[100vw] lg:w-[100%]">
+          <Image src={furnitureImage} />
+        </div>
       </div>
 
-      <div className="experience__Right">
+      <div className="experience__Right md:flex-[0.5] md:ml-4">
         <Descriptor
           header="Experiences"
           title="we provide you the best experience"
