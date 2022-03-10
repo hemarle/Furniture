@@ -1,8 +1,29 @@
+import About from "../components/About";
 import Hero from "../components/Hero";
 
 import SearchIcon from "../static/images/Search-icon.png";
 
 export default function Home() {
+  const aboutData = [
+    {
+      title: "Luxury facilities",
+      about:
+        "The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.",
+      link: "/faci",
+    },
+    {
+      title: "Affordable Price",
+      about:
+        "You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.",
+      link: "/faci",
+    },
+    {
+      title: "Many Choices",
+      about:
+        "We provide many unique work space choices so that you can choose the workspace to your liking.",
+      link: "/faci",
+    },
+  ];
   return (
     <div className="">
       <Hero
@@ -12,6 +33,8 @@ minimalistic & modern"
         placeholder="Search furniture"
         icon={SearchIcon}
       />
+
+      <About title="Why Choosing Us" data={aboutData} />
     </div>
   );
 }
