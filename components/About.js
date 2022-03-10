@@ -3,10 +3,10 @@ import AboutCard from "./AboutCard";
 
 function About({ title, data }) {
   return (
-    <div className="about">
-      <h2 className="title text-center"> {title}</h2>
+    <div className="about lg:flex lg:justify-around lg:items-center lg:px-10">
+      <h2 className="title text-center lg:min-w-max"> {title}</h2>
 
-      <div className="about__Cards">
+      <div className="about__Cards flex flex-wrap lg:justify-around lg:items-baseline lg:w-[100%]">
         {data.map((option) => (
           <AboutCard data={option} />
         ))}
