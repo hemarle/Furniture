@@ -3,10 +3,12 @@ import Experience from "../components/Experience";
 import Hero from "../components/Hero";
 import Material from "../components/Material";
 import Product from "../components/Product";
+import Testimonial from "../components/Testimonial";
 
 import SearchIcon from "../static/images/Search-icon.png";
 
 import { options, productData } from "../static/js/product";
+import testimonialData from "../static/js/testimonial";
 export default function Home() {
   const aboutData = [
     {
@@ -48,6 +50,8 @@ minimalistic & modern"
 
       <Experience />
       <Material />
+
+      <Testimonial data={testimonialData} />
     </div>
   );
 }
