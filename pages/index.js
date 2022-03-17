@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Experience from "../components/Experience";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Material from "../components/Material";
 import Product from "../components/Product";
@@ -52,6 +53,11 @@ minimalistic & modern"
       <Material />
 
       <Testimonial data={testimonialData} />
+
+      <Footer
+        title="Panto"
+        about="The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities."
+      />
     </div>
   );
 }
